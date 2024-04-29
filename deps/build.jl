@@ -121,8 +121,8 @@ function build_concorde()
         return _build_concorde()
     elseif Sys.isapple()
         return _build_concorde()
-    elseif Sys.iswindows()
-        return _download_concorde_win()
+    elseif true
+        return _build_concorde()
     end
     error(
         "Unsupported operating system. Only 64-bit linux and macOS " *
