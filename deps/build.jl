@@ -95,7 +95,7 @@ function _build_concorde()
 
     # Download concorde
     concorde_tarball = download(CONCORDE_SRC)
-    run(`tar zxvf $(concorde_tarball)`)
+    run(`gzip -d $(concorde_tarball)`)
 
     # Build 
     concorde_src_dir = joinpath(@__DIR__, "concorde")
