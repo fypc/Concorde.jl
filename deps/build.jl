@@ -16,7 +16,7 @@ const QSOPT_LOCATION = Dict(
     ]
 )
 
-const CONCORDE_SRC = "http://www.math.uwaterloo.ca/tsp/concorde/downloads/codes/src/co031219.tgz" 
+const CONCORDE_SRC = "http://www.math.uwaterloo.ca/tsp/concorde/downloads/codes/linux24/concorde.gz" 
 
 
 const CONCORDE_WIN_EXE_URL = "http://www.math.uwaterloo.ca/tsp/concorde/downloads/codes/cygwin/concorde.exe.gz"
